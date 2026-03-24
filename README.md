@@ -94,18 +94,23 @@ R-hat ≈ 1.0, healthy caterpillar trace plots.
 ## Project Structure
 
 ```
-RL/
+adaptive-bayesian-bandits-RL/
+├── agents/
+│ ├── bayesian_agent.py # TS, hierarchical TS, contextual TS
+│ └── dqn_baseline.py # DQN baseline
 ├── experiments/
-│   └── compare_advanced.py      # main ablation script
+│ ├── compare_advanced.py # main ablation script (5 agents)
+│ └── compare.py # simpler comparison script
 ├── models/
-│   └── reward_pgm.py            # hierarchical PGM definition
+│ └── reward_pgm.py # hierarchical PGM definition (PyMC)
 ├── results/
-│   ├── comparison.png
-│   ├── pgm_posteriors.png
-│   ├── pgm_trace.png
-│   ├── pgm_arviz.png
-│   ├── posterior_evolution.gif
-│   └── metrics.csv
+│ ├── comparison.png
+│ ├── pgm_posteriors.png
+│ ├── pgm_trace.png
+│ ├── pgm_arviz.png
+│ ├── posterior_evolution.gif
+│ └── metrics.csv
+├── requirements.txt
 └── README.md
 ```
 
@@ -114,11 +119,12 @@ RL/
 ## Setup & Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bayesian-bandit-rl.git
-cd bayesian-bandit-rl
+git clone https://github.com/Neginodar/adaptive-bayesian-bandits-RL.git
+cd adaptive-bayesian-bandits-RL
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 python experiments/compare_advanced.py
+
 ```
 
 ---
