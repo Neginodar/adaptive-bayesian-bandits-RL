@@ -1,0 +1,7 @@
+pymc>=5.0
+gymnasium>=0.29
+torch>=2.0
+numpy>=1.24
+matplotlib>=3.7
+arviz>=0.16
+scipy>=1.10
