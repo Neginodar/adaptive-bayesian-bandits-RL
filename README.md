@@ -139,3 +139,16 @@ This bandit framework directly models real-world adaptive decision problems:
 - 🏥 **Clinical trials** — adaptive treatment arm selection under changing patient populations
 - 📱 **A/B testing** — ad and content variant selection under shifting user behavior
 - 🛒 **Recommender systems** — item ranking with concept drift over time
+---
+
+## Author
+
+**Negin Odarbashi**  
+M.Sc. in Artificial Intelligence  
+Department of Computer Science and Engineering  
+Alma Mater Studiorum – Università di Bologna, Italy  
+
+- Email: [negin.odarbashi@gmail.com](mailto:negin.odarbashi@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/negin-odarbashi-3a5751207](https://www.linkedin.com/in/negin-odarbashi-3a5751207)
+- GitHub: [https://github.com/Neginodar](https://github.com/Neginodar)
+
